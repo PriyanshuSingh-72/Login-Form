@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="Stylesheets/index.css">
+</head>
+<body>
+   <div class="main w-full h-screen bg-zinc-900 p-10">
+    <a href="/login" class="px-4 text-3xl text-red-500 mb-5">Login</a>
+    <h1 class="px-4 text-3xl text-red-500 mb-5 mt-5">Create User </h1>
+    <form action="/create" method="post">
+        <input type="text" placeholder="username" name="username" class="px-4 py-2 rounded text-xl bg-red-500 outline-none border-none m-2">
+        <input type="email" placeholder="email" name="email" class="px-4 py-2 rounded text-xl bg-red-500 outline-none border-none m-2">
+        <input type="number" placeholder="age" name="age" class="px-4 py-2 rounded text-xl bg-red-500 outline-none border-none m-2">
+        <input type="password" placeholder="password" name="password" class="px-4 py-2 rounded text-xl bg-red-500 outline-none border-none m-2">
+        <input type="submit" value="Create user" class="px-4 py-2 rounded text-xl bg-blue-500 outline-none border-none m-2">
+    </form>
+   </div>
+</body>
+</html>
